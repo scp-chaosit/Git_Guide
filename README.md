@@ -17,6 +17,8 @@ of course you can use git on Windows as well, but you need to download "git bash
 screenshots - a directory (a directory word is similiar to a folder in Windows) with some screenshots about git working
 usualy I move there some things that are long enough to write, so it is simplier just to make a screenshot
 
+terms\_explanation.md - a file with explanation of some terms
+
 ## Be aware
 this project (well, just a test one) is still in developement
 so, there will be a lot of changes
