@@ -5,8 +5,8 @@ this is statement of most useful git commands (well, at least I think so; of cou
 > uses to initialize an empty git repo
     
 ## configure levels:
-> system (all users): `git config --system`
-> global (current user): `git config --global`
+> system (all users): `git config --system`<br>
+> global (current user): `git config --global`<br>
 > local (current repo): `git config --local`
 
 ## `git config --global core.editor "editor"`:
@@ -61,8 +61,8 @@ this is statement of most useful git commands (well, at least I think so; of cou
 > shows tag details
 
 ## `git push <branch> (usually branch is origin - uses instead of a name for your remote repo) <tag>`:
-> pushes a tag to defined branch in a repo
-> WARNING: if you'll just use `git push`, it WON'T push your tags!
+> pushes a tag to defined branch in a repo<br>
+> WARNING: if you'll just use `git push`, it WON'T push your tags!<br>
 > you mush push tag explicity
 
 ## `git push --tags`:
@@ -111,5 +111,5 @@ this is statement of most useful git commands (well, at least I think so; of cou
 > deletes all the stashes
 
 ## `git stash branch <branch_name> stash@{n}`:
-> creates a new stash and applies your stashed changes
+> creates a new stash and applies your stashed changes<br>
 > useful if your stashed work should become its own feature branch
