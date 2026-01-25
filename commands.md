@@ -23,3 +23,53 @@ this is statement of most useful git commands (well, at least I think so; of cou
 
 ## `git config --global init.defaultBranch <branch>`:
     will set your repos default branch (default branch: main)
+
+## `git add <file>`:
+    stages a file
+
+## `git add -A`:
+    stages all files
+
+## `git restore --staged <file>`:
+    unstages a file
+
+## `git commit`:
+    opens your default editor, letting you write a long message to your commit
+
+## `git commit -m "message"`:
+    commits staged changes with a following message
+
+## `git commit -a -m "message"`:
+    commits all tracked changes with a following message (skips stagging)
+
+## `git log`:
+    allows you to see commit history (logs)
+
+## `git tag <tagname>`:
+    creates a lightweight tag
+
+## `git tag -a <tagname> -m "message"`:
+    creates an annotated tag
+
+## `git tag <tagname> <commit_hash>`:
+    tag a specific commit (something like git tag v1.1 1234abcd : v1.1 - tag; 1234abcd - commit hash)
+
+## `git tag`:
+    lits tags
+
+## `git show <tagname>`:
+    shows tag details
+
+## `git push <branch> (usually branch is origin - uses instead of a name for your remote repo) <tag>`:
+    pushes a tag to defined branch in a repo
+    WARNING: if you'll just use `git push`, it WON'T push your tags!
+    you mush push tag explicity
+
+## `git push --tags`:
+    pushes all your local tags to a remote repo
+
+## `git tag -d <tag>`:
+    deletes a tag locally
+
+## `git push <branch> --delete tag <tag>`:
+    deletes a tag from remote repo
