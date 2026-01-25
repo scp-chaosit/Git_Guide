@@ -73,3 +73,43 @@ this is statement of most useful git commands (well, at least I think so; of cou
 
 ## `git push <branch> --delete tag <tag>`:
     deletes a tag from remote repo
+
+## `git tag -f v1.0 <new_commit_hash>; git push --force origin v1.0`:
+    updates or replaces a tag (force push)
+
+## `git stash`:
+    stashes your changes
+
+## `git stash -u`:
+    stashes your changes (including untracked files)
+
+## `git stash -m`:
+    stashes your changes with a message
+
+## `git stash list`:
+    lists all stashes
+
+## `git stash show`:
+    allows you to see all changes from a previous stash
+
+## `git stash branch <branch_name>`:
+    creates a new branch from a stash
+
+## `git stash apply`:
+    restores your most recent stashed changes (keeps the stash in the stack)
+
+## `git stash apply stash@{n}`:
+    restores a specific stash (replace n in curly brackets to the number of your stash, like `git stash apply stash@{1}`)
+
+## `git stash pop`:
+    applies the latest stash and removes it from the stack
+
+## `git stash drop stash@{n}`:
+    "drops" (deletes) a specific stash when you no longer need it
+
+## `git stash clear`:
+    deletes all the stashes
+
+## `git stash branch <branch_name> stash@{n}`:
+    creates a new stash and applies your stashed changes
+    useful if your stashed work should become its own feature branch
