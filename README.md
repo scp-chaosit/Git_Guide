@@ -21,5 +21,9 @@ usualy I move there some things that are long enough to write, so it is simplier
 this project (well, just a test one) is still in developement
 so, there will be a lot of changes
 
+## Where did information came from?
+I took the information and screenshots from w3schools.com webschool
+I'm suggesting you check this website, it is the best place to learn programming for free!
+
 btw sorry if my english is too bad, I'm just learning
 BUT promise you, I'll become better at this)
