@@ -3,8 +3,8 @@ this is statement of most useful git commands (well, at least I think so; of cou
 
 ## `git init`:
 > uses to initialize an empty git repo
-    
-## configure levels:
+
+## configure levels
 > system (all users): `git config --system`<br>
 > global (current user): `git config --global`<br>
 > local (current repo): `git config --local`
@@ -113,3 +113,21 @@ this is statement of most useful git commands (well, at least I think so; of cou
 ## `git stash branch <branch_name> stash@{n}`:
 > creates a new stash and applies your stashed changes<br>
 > useful if your stashed work should become its own feature branch
+
+## `git log`:
+> show full commit history
+
+## `git log --online`:
+> show a summary of commits
+
+## `git show <commit>`:
+> show details of a specific commit
+
+## `git diff`:
+> show unstaged changes
+
+## `git diff --staged`:
+> show staged changes
+
+## `git diff <commit1> <commit2>`:
+> compares two commits
